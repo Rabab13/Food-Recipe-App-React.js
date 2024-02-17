@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# Recipe Search App
+
+This React app allows users to search for recipes using the Forkify API, view recipe details, and add recipes to their favorites list.
+
+## Installation
+
+To run this app, you need to have Node.js installed. You can install the dependencies using npm or yarn:
+
+``` npm install ``` or ```yarn install```
+
+## Start the development server:
+``` npm start``` or ```yarn start``
+
+  Open your web browser and navigate to http://localhost:3000.
+
+  Enter a search term in the input field and click "Search" to find recipes.
+
+
+  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
