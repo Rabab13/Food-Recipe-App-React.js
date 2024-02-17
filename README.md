@@ -45,6 +45,14 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## createContext
+ is a function provided by React that allows you to create a new context object, which can be used to share data across components in a React application.
+
+## <GlobalState>:
+ This is a custom component that you've defined in your code. As per your previous code snippet, GlobalState is a component that wraps its children with a context provider. This means that any components nested inside <GlobalState> will have access to the data stored in the context provided by GlobalState.
+ Putting it all together, the code snippet ensures that the entire application, represented by <App/>, has access to the global state managed by the GlobalState component. This pattern is commonly used in React applications for managing global state and sharing data across multiple components.
+
+
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)

@@ -1,4 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
+   background-color: transparent !important;
+  background-image: url("/images/bg.jpg"); /* Specify the background image */
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust the background-size property as needed */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -6,7 +14,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.bg-white {
+  --tw-bg-opacity: 0.1;
+  background-color: rgba(0, 0, 0, 0.59)
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
